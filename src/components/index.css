@@ -1,0 +1,51 @@
+.login-page{
+    position:relative;
+    overflow:hidden
+}
+.login-page .row{
+    height: 100vh;
+}
+.text-part{
+    width:75%;
+    padding:50px;
+}
+input {
+    margin-top: 15px;
+    height: 50px;
+}
+button{
+    height: 50px;
+    margin-top: 15px;
+    width: 50%;
+    background-color:#DA211C;
+    color:white;
+    border: none;
+}
+input:focus{
+    box-shadow: none;
+    outline: none;
+}
+h1{
+    font-size: 60px;
+    color:transparent;
+    -webkit-text-stroke: 1px #DA211C;
+    font-weight: bold;
+    letter-spacing: 6px;
+}
+a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.71);
+}
+img{
+    height:500px;
+}
+.login-page-rectangle{
+    height:140vh;
+    width:650px;
+    background-color: #DA211C;
+    position:absolute;
+    right: -250px;
+    bottom: -250px;
+    transform: rotate(30deg);
+    z-index:-1;
+}
